@@ -22,5 +22,5 @@ Route::group(['middleware' => 'auth', 'prefix' => 'blog', 'as' => 'blog.'], func
     Route::get('/create', 'BlogController@create')->name('create');
     Route::post('/store', 'BlogController@store')->name('store');
     Route::get('/update', 'BlogController@update')->name('update');
-    Route::get('/delete', 'BlogController@update')->name('delete');
+    Route::get('/delete', 'BlogController@destroy')->name('delete');
 });

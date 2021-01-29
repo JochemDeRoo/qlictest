@@ -15,6 +15,10 @@
                     @endif
 
                     You are logged in!
+                    <div class="container">
+                    <a href="/blog/">See all blogs!</a> <br>
+                    <a href="/blog/create">Make a post!</a> <br>
+                    </div>
                 </div>
             </div>
         </div>

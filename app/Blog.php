@@ -12,7 +12,9 @@ class Blog extends Model
      * @var array
      */
     protected $fillable = [
-        'user_id', 'title', 'body',
+        'user_id',
+        'title',
+        'body',
     ];
 
     /**
